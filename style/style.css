@@ -363,6 +363,10 @@ a.button{
 main{
 	margin: 2%;
 }
+#kontaktside{
+	height: 50vh;
+	margin: 5%;
+}
 #kontakt{
 	background-color: #FAFDFB;
 	width: 40%;
