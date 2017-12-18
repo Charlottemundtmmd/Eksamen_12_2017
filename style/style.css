@@ -201,7 +201,7 @@ footer{
 	margin: 10 auto;	
 }
 .fancybokimg{
-	max-height:240px;
+	max-height: 160px;
 	width: 20%;
 	justify-content: center;
 }
@@ -264,6 +264,10 @@ a.button{
 }
 .vejrapps iframe {
 	justify-content: space-between;
+}
+.underline{
+ 	color: black;
+	text-decoration: underline;
 }
 /*Oversigt + Læring  sider*/
 
@@ -467,7 +471,7 @@ main{
 		display: none;
 	}
 	#knapper{
-		width: 80%;
+		width: 100%;
 		margin-bottom: 10%;
 	}
 	a.button{
@@ -498,6 +502,9 @@ main{
 		width: 90%;
 	}
 	#footercontent{
+		display: none;
+	}
+	iframe{
 		display: none;
 	}
 }
@@ -558,5 +565,8 @@ main{
 }
 	#oversigt{
 		width: 90%;
+	}
+	iframe{
+		display: none;
 	}
 }
