@@ -98,6 +98,7 @@ p{
 }
 /* footer */
 footer{
+	padding-top: 0;
 	height: 10vh;
 	width: 100%;
 	box-sizing: border-box;
@@ -198,12 +199,17 @@ footer{
 }
 .fancydiv{
 	display: inline-flex;
-	margin: 10 auto;	
+	margin: auto;	
+	width: 100%;
 }
 .fancybokimg{
-	max-height: 160px;
-	width: 20%;
-	justify-content: center;
+	height:90%;
+	width: 90%;
+	padding-right:1%;
+	margin: 2%
+}
+.imglist{
+	padding:0;
 }
 /*Egen projekter*/ 
 main{
@@ -219,6 +225,7 @@ main{
 	width: 40%;
 }
 /* Undersider */
+
 .undersidecontainer{
 	display: inline-flex;
 	text-align:center;
@@ -264,6 +271,7 @@ a.button{
 }
 .vejrapps iframe {
 	justify-content: space-between;
+	border: none;
 }
 .underline{
  	color: black;
@@ -507,6 +515,16 @@ main{
 	iframe{
 		display: none;
 	}
+	.fancydiv{
+	display: block;
+	margin: auto;	
+	width: 80%;
+}
+.fancybokimg{
+	height:100%;
+	width: 100%;
+	padding-right:1%;
+}
 }
 @media all and (max-width: 1200px) {
 	button{
